@@ -1,8 +1,15 @@
 deepfilternet>=0.5.6
 soundfile>=0.12
-
-# Install torch/torchaudio separately via the CPU index (handled by setup commands)
 openai-whisper==20240930
 edge-tts>=6.1.12
+tkinterdnd2>=0.4.3
+playsound>=1.3.0
+pydub>=0.25.1
+
+# For audio conversion and playback, ffmpeg is required (not a pip package)
+# Download from https://ffmpeg.org/download.html and add to PATH
+
+# Install torch and torchaudio manually for your platform:
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 

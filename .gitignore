@@ -1,0 +1,14 @@
+# Virtual environments
+.venv/
+.venv*/
+venv/
+venv*/
+venv311/
+venv311*/
+
+# Common Python artifacts (optional but recommended)
+__pycache__/
+*.py[cod]
+*.pyo
+**/site-packages/
+
